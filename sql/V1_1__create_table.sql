@@ -3,6 +3,5 @@ CREATE TABLE cve.cves (
     date_updated TIMESTAMP WITH TIME ZONE NOT NULL,
     data JSONB,
     created_at TIMESTAMP WITH TIME ZONE DEFAULT (CURRENT_TIMESTAMP AT TIME ZONE 'UTC'),
-    sha1 VARCHAR(40),
     PRIMARY KEY (cve_id, date_updated)
 );
