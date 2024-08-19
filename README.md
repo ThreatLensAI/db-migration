@@ -1,4 +1,4 @@
-# CSYE7125 Database migrations for webapp CVE Database
+# Database migrations for webapp CVE Database
 
 This repository contains the database migrations for the webapp CVE Database. The migrations are handled using Flyway.
 
